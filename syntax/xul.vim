@@ -2,7 +2,7 @@
 " Language:     XUL
 " Maintainer:   Nikolai Nespor <nikolai.nespor@utanet.at>
 " URL:          http://www.unet.univie.ac.at/~a9600989/vim/xul.vim
-" Last Change:  2004 07 24
+" Last Change:  2005 02 22
 "
 " Remarks:      Adds XUL-Highlighting (based on docbk.vim)
 "               If you want XUL-Attribute-Highlighting put a line
@@ -70,10 +70,10 @@ syn keyword xulKW stringbundleset tab tabbrowser tabbox tabpanel contained
 syn keyword xulKW tabpanels tabs template textnode textbox contained
 syn keyword xulKW titlebar toolbar toolbarbutton toolbargrippy contained
 syn keyword xulKW toolbaritem toolbarpalette toolbarseparator contained
-syn keyword xulKW toolbarspacer toolbarspring toolbox tooltip tree contained
-syn keyword xulKW treecell treechildren treecol treecols treeitem contained
-syn keyword xulKW treerow treeseparator triple vbox window wizard contained
-syn keyword xulKW wizardpage contained
+syn keyword xulKW toolbarset toolbarspacer toolbarspring toolbox contained
+syn keyword xulKW tooltip tree treecell treechildren treecol treecols contained
+syn keyword xulKW treeitem treerow treeseparator triple vbox window contained
+syn keyword xulKW wizard wizardpage contained
 
 " XUL-Attributes
 "
@@ -82,11 +82,11 @@ syn keyword xulAT class coalesceduplicatearcs collapsed container contained
 syn keyword xulAT containment context contextmenu datasources debug contained
 syn keyword xulAT dir empty equalsize flags flex height hidden id contained
 syn keyword xulAT insertafter insertbefore left maxheight contained
-syn keyword xulAT maxwidth minheight minwidth observes ordinal contained
-syn keyword xulAT orient pack persist popup position ref removeelement contained
-syn keyword xulAT sortDirection sortResource sortResource2 statustext contained
-syn keyword xulAT style template tooltip tooltiptext top uri wait-cursor contained
-syn keyword xulAT width contained
+syn keyword xulAT maxwidth menu minheight minwidth mousethrough contained
+syn keyword xulAT observes ordinal orient pack persist popup position contained
+syn keyword xulAT ref removeelement sortDirection sortResource contained
+syn keyword xulAT sortResource2 statustext style template tooltip contained
+syn keyword xulAT tooltiptext top uri wait-cursor width contained
 
 " Define the default highlighting.
 " For version 5.7 and earlier: only when not done already
