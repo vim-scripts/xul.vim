@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=241
+
+Syntax highlighting for XUL based on the DocBook highlighting by Devin Weaver. Optional attribute highlighting for common XUL attributes is included.
